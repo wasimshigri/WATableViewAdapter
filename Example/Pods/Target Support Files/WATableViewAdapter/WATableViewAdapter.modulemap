@@ -1,0 +1,6 @@
+framework module WATableViewAdapter {
+  umbrella header "WATableViewAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}

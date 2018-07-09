@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D82FA9FD539B1C9AA45FDA9 /* WATableViewAdapter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WATableViewAdapter.podspec; path = ../WATableViewAdapter.podspec; sourceTree = "<group>"; };
+		2D82FA9FD539B1C9AA45FDA9 /* WATableViewAdapter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WATableViewAdapter.podspec; path = ../WATableViewAdapter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3A46B70E7CD8BCE33FBD174E /* Pods_WATableViewAdapter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WATableViewAdapter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D7990EAA56A00702B9F6D76 /* Pods-WATableViewAdapter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WATableViewAdapter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WATableViewAdapter_Example/Pods-WATableViewAdapter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		41FB29B9B6885FAC71976760 /* Pods_WATableViewAdapter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WATableViewAdapter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,8 +45,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		69A1B15102A5B7C95CB4ACB1 /* Pods-WATableViewAdapter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WATableViewAdapter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WATableViewAdapter_Example/Pods-WATableViewAdapter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B09CD38655CAD40EEFEBD8FC /* Pods-WATableViewAdapter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WATableViewAdapter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WATableViewAdapter_Tests/Pods-WATableViewAdapter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BB7459D2B5C6E8BC56962B07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E55791C1E6D0BF714C28A529 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BB7459D2B5C6E8BC56962B07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E55791C1E6D0BF714C28A529 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'WATableViewAdapter'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WATableViewAdapter.'
+  s.swift_version   = '>= 3.2, <= 4.1'
+  s.summary          = 'WATableViewAdapter contains wrappers for UITableViewDatasource and UITableViewDelegate which provides multilevel tableview.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+iOS tabelview does not provides the multi-level functionality. WATableViewAdapter provides this functionality. This library contains wrappers for UITableViewDatasource and UITableViewDelegate which provides functionality of multilevel tableview.
                        DESC
 
   s.homepage         = 'https://github.com/wasimshigri/WATableViewAdapter'

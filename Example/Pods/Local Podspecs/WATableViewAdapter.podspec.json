@@ -1,0 +1,22 @@
+{
+  "name": "WATableViewAdapter",
+  "version": "0.1.0",
+  "summary": "A short description of WATableViewAdapter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wasimshigri/WATableViewAdapter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wasimshigri": "wa@embrace-it.com"
+  },
+  "source": {
+    "git": "https://github.com/wasimshigri/WATableViewAdapter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WATableViewAdapter/Classes/**/*"
+}
