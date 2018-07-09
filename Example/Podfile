@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WATableViewAdapter_Example' do
+  pod 'WATableViewAdapter', :path => '../'
+
+  target 'WATableViewAdapter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
