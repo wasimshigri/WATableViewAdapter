@@ -97,7 +97,7 @@ open class WATableViewAdapter: NSObject ,UITableViewDelegate,UITableViewDataSour
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let data = (self.objects[indexPath.row] as! DataModel);
-        var cell = datasource?.waTableViewCellFor(indexPath: indexPath, forIndexLevel: data.levelIndex, forData: data.data, forTableView: tableView);
+        var cell = datasource?.waTableViewCellFor(indexPath: indexPath, forIndexLevel: data.levelIndex, forData: data.data as Any, forTableView: tableView);
         if(cell != nil){
             delegate?.waTableViewUpdateCellFor?(selectionStatus: data.isSelected, cell: cell!, atIndexLevel: data.levelIndex, forData: data.data);
             cell?.delegate = self;
@@ -167,7 +167,7 @@ open class WATableViewAdapter: NSObject ,UITableViewDelegate,UITableViewDataSour
         let indentArray = objects.map({($0 as! DataModel).keyIndent});
         
         let indentCheeck = indentArray.contains(indentlevel);
-        var isChildrenAlreadyInserted = self.objects.contains(data.childerns);
+        var isChildrenAlreadyInserted = self.objects.contains(data.childerns as Any);
         if data.childerns == nil {
             return;
         }
