@@ -7,72 +7,140 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001B4E233E95F2C2D96FB6058636F76E /* SwipeCellKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B488C40F1A158A4F4D5BCAB9F49611 /* SwipeCellKit.framework */; };
+		022AF5625A4842ADADC91C7B23E0326A /* SwipeActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451FC3B397527DF6D13F3D8074D20FAD /* SwipeActionButton.swift */; };
+		0C08A522B9D10ED7608272AAF2756AA0 /* Pods-WATableViewAdapter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5115D5BC93D6699F57C5F3662FCA021A /* Pods-WATableViewAdapter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E70688257773B8CA56104A67D987EFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E9EF683F8E55A0B8F55E139EB51597 /* Foundation.framework */; };
+		11146A7D4B9A44C32FF9FD6E2C5EF68D /* WATableViewAdapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09124B6B883C0A390A21B95A77D8F09D /* WATableViewAdapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C17B5CAE5030C26F2A444D7334A663E /* Pods-WATableViewAdapter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3018C317919546729FBE728282FF6CD0 /* Pods-WATableViewAdapter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30B687078CB956EBB4F3259B7727DA19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		566EFD275D0056787F87D30341585519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5F4900733491BE5B5FE5B33E7233B77C /* WATableViewAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC33D336D387B3294172DFBACAA15FD4 /* WATableViewAdapter-dummy.m */; };
-		77BADAA04092DB0522DE963CC99A02FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A5765F6CB1D91D901BB61B2FB07187BC /* Pods-WATableViewAdapter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A44B73835F148878E7649B7AB9E74004 /* Pods-WATableViewAdapter_Example-dummy.m */; };
-		C513C3E28F61583008BA9A7D78996012 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7741EA861514A92FDAD0A9648AE87D9 /* ReplaceMe.swift */; };
-		C841EFC9BC211A9D84751FB5002A30F9 /* Pods-WATableViewAdapter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5115D5BC93D6699F57C5F3662FCA021A /* Pods-WATableViewAdapter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC5DE0122B642EC2C94D33C36D3F1210 /* WATableViewAdapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A6A4EB37AACDBC02637D8BC6875FBB /* WATableViewAdapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20360754104E8A4A1D81B7F7C87D01A1 /* SwipeExpanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7BAFEC38D7DFF7E6FC8323CA409C03 /* SwipeExpanding.swift */; };
+		25E22A17E7A457623F5C80E07BA74E62 /* Swipeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34F3AC867D7B85DF2829F83D5376A9 /* Swipeable.swift */; };
+		30B687078CB956EBB4F3259B7727DA19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E9EF683F8E55A0B8F55E139EB51597 /* Foundation.framework */; };
+		462FFE44805CCB22EFB0D355B38C369C /* WATableViewAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD9C11766A2BA29377B8B3B6BD0D8EA /* WATableViewAdapter-dummy.m */; };
+		4ADCB4366D5D5EB90C7781B25C7A9E52 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B780432F81ECA1C3739071288957A5 /* Extensions.swift */; };
+		520FAD1D0F8FD66D31484396A6E036F2 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1CD3C2964A5BFBE4169F56F406429B /* SwipeAction.swift */; };
+		53CBB96308D3B432788E7A32D4E1DD85 /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5BA3CACC94406D1670E4F893AEF03 /* SwipeActionsView.swift */; };
+		5B1A90F9776968A7C5B9B45FB0576044 /* SwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98041F005E760361078EBAE6D63C9AE6 /* SwipeTableViewCell.swift */; };
+		649A8766852C6FBA018E3E1AA99471B9 /* SwipeExpansionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B07FAE5A2C5629FD0E05FD1F048D0E /* SwipeExpansionStyle.swift */; };
+		6BA471D4E2021BD103E4578730E50D3C /* Pods-WATableViewAdapter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A44B73835F148878E7649B7AB9E74004 /* Pods-WATableViewAdapter_Example-dummy.m */; };
+		73F78C797DBF34A1BD329D5CDC296E8A /* SwipeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C873CCBB6632718EC2388606B68B2FC1 /* SwipeAnimator.swift */; };
+		88EB200D7A12144A1358ACFBE8EBF245 /* WATableOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F75A3F1B5AC96EA8CA0D4C67F93DFA /* WATableOptions.swift */; };
+		99E325A7476DB827BAC56334EBAF5B92 /* SwipeTableOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136EEEA34397B89E3B5E7467414E390 /* SwipeTableOptions.swift */; };
+		A1C6E4F283C439659E577F0894768670 /* SwipeCellKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 082B5B32A61D14C480889EC7BC19E306 /* SwipeCellKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A605ECC42FC589A1A27F9B3CB08B13D1 /* SwipeTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2282DE4CC7DFC4C7F060694695F39309 /* SwipeTableViewCellDelegate.swift */; };
+		A97500D0CD39869DEFBE74015D361273 /* WATableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91021A6738DBA92D8932A3D395B57E4 /* WATableViewCell.swift */; };
+		A99EE6B2892A5904F234AC3C5D05C8CA /* SwipeCellKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C718EDC7D44F58DB0B8D4DAC56795 /* SwipeCellKit-dummy.m */; };
+		AACBD8DFF237E76D2BEBF9C2264A17AB /* ItemDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CA3EC3EE5A2E406EF4D924E64481B8 /* ItemDataModel.swift */; };
+		B4D602DBBCB5805FEE6E9AF05B0E8852 /* SwipeTableViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812ECC95F06A74E46FC6DF7DE7F80ADE /* SwipeTableViewCell+Display.swift */; };
+		C3A50EDD75BA5B7A522C72D00C4E8F58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E9EF683F8E55A0B8F55E139EB51597 /* Foundation.framework */; };
+		C47E4628D46F5188874B2A3EE17941B1 /* WATableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10DB025D58D1F2F0D6414DC0222E5F /* WATableViewAdapter.swift */; };
+		C910F8899C84ADE64909682A9DA17FE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E9EF683F8E55A0B8F55E139EB51597 /* Foundation.framework */; };
+		E6133DAA40012B921C627937260BB115 /* SwipeTransitionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE939541D1CAA3293A0D9CF14B3669 /* SwipeTransitionLayout.swift */; };
+		E898EAC74B01ECFCBA170A7E06D3F6D5 /* SwipeActionTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0BFA785024CB9F0616146171050CE4 /* SwipeActionTransitioning.swift */; };
+		EA26687C1AFD80EBF05A554814EF80B8 /* SwipeFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B57DDCDD1EDCDC51A03721CBA05C6B /* SwipeFeedback.swift */; };
 		F00CA18EE1030901DA24FCFF325D6D8E /* Pods-WATableViewAdapter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2D02DE6838809A98CE85169241DFA /* Pods-WATableViewAdapter_Tests-dummy.m */; };
+		F14CA2145B521BD0DDEF7E7C24957FFD /* SwipeTableViewCell+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE91745C3352355E998ED33023A7E02A /* SwipeTableViewCell+Accessibility.swift */; };
+		FE56C437C1ADE290BE2A18092784471C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7CC609ABE95E0E25C4F1D6EDA803C3 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		75472E343A30FC435449C1222C011416 /* PBXContainerItemProxy */ = {
+		65A83BC9E61E6F5BA03F95E756AD6D65 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ADF18C6F7146611CA7C677C270AE286C;
+			remoteGlobalIDString = CE13910CE85ED54A4D06629234AA89CE;
+			remoteInfo = SwipeCellKit;
+		};
+		D25403D1AF5A54C07D51C126869C20FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE13910CE85ED54A4D06629234AA89CE;
+			remoteInfo = SwipeCellKit;
+		};
+		DA9892DF92F6D2EB5741E181D058CC9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 992775A43A6268868FD7CF30C194C381;
 			remoteInfo = WATableViewAdapter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		07F1AEEBA6528D3F3A48D9D1E8259E50 /* Pods-WATableViewAdapter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WATableViewAdapter_Example-resources.sh"; sourceTree = "<group>"; };
-		0EBF9928BBD1F914E5FC9D89CB5437E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		082B5B32A61D14C480889EC7BC19E306 /* SwipeCellKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCellKit-umbrella.h"; sourceTree = "<group>"; };
+		09124B6B883C0A390A21B95A77D8F09D /* WATableViewAdapter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WATableViewAdapter-umbrella.h"; sourceTree = "<group>"; };
+		09B07FAE5A2C5629FD0E05FD1F048D0E /* SwipeExpansionStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpansionStyle.swift; path = Source/SwipeExpansionStyle.swift; sourceTree = "<group>"; };
+		0A3C718EDC7D44F58DB0B8D4DAC56795 /* SwipeCellKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeCellKit-dummy.m"; sourceTree = "<group>"; };
+		11872BD1B4F5BB5C8BE21319FDE9889A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		13CA3EC3EE5A2E406EF4D924E64481B8 /* ItemDataModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItemDataModel.swift; path = WATableViewAdapter/Classes/ItemDataModel.swift; sourceTree = "<group>"; };
 		15E94B209D4DD19A24B9FC7B3741C677 /* Pods-WATableViewAdapter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WATableViewAdapter_Tests-resources.sh"; sourceTree = "<group>"; };
+		2282DE4CC7DFC4C7F060694695F39309 /* SwipeTableViewCellDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCellDelegate.swift; path = Source/SwipeTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		28D2B420A7D58C2CFCE5CD33995E30A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2958EBD39A1628F8CB935AB8D874E39E /* Pods-WATableViewAdapter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WATableViewAdapter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		299179CE7C9EC569EE5E6C0754325D68 /* Pods-WATableViewAdapter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WATableViewAdapter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C4A36FE4E4C4BD05FBE23A93616A8D1 /* WATableViewAdapter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WATableViewAdapter.modulemap; sourceTree = "<group>"; };
 		3018C317919546729FBE728282FF6CD0 /* Pods-WATableViewAdapter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WATableViewAdapter_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3933A818808CF223D733C92B987D7DB4 /* WATableViewAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WATableViewAdapter-prefix.pch"; sourceTree = "<group>"; };
 		3DC9BA53B9FF1A230C8F3EFEC0AD470D /* Pods-WATableViewAdapter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WATableViewAdapter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3F4C7B2A8013CEE53515246A3147CCD7 /* SwipeCellKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeCellKit.xcconfig; sourceTree = "<group>"; };
+		43BA490FA7BEE9ABA2343ED4C6B4AFFF /* Pods_WATableViewAdapter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WATableViewAdapter_Example.framework; path = "Pods-WATableViewAdapter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		451FC3B397527DF6D13F3D8074D20FAD /* SwipeActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionButton.swift; path = Source/SwipeActionButton.swift; sourceTree = "<group>"; };
+		4548D0FD79A597B7E0C791B9B83152B7 /* WATableViewAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WATableViewAdapter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		45EBD55DBEACD124B727CFC7F33B2292 /* Pods_WATableViewAdapter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WATableViewAdapter_Tests.framework; path = "Pods-WATableViewAdapter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4734B8FB0C78E8DD88DF120DA2E9E507 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4908E5706BE49C7B79A8AA5F0288ECA0 /* Pods-WATableViewAdapter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WATableViewAdapter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5115D5BC93D6699F57C5F3662FCA021A /* Pods-WATableViewAdapter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WATableViewAdapter_Example-umbrella.h"; sourceTree = "<group>"; };
+		5136EEEA34397B89E3B5E7467414E390 /* SwipeTableOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableOptions.swift; path = Source/SwipeTableOptions.swift; sourceTree = "<group>"; };
+		5C52C1E88330CDB2FB00E34973D5C89D /* WATableViewAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WATableViewAdapter.framework; path = WATableViewAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D494887E2D2B518869EDEC59008B4B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5FD5BA3CACC94406D1670E4F893AEF03 /* SwipeActionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionsView.swift; path = Source/SwipeActionsView.swift; sourceTree = "<group>"; };
 		6B1A2ACEC3D96D45665D46733929FEF6 /* Pods-WATableViewAdapter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WATableViewAdapter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6B54ADDAF31BE6E6E98D19A183F72E11 /* Pods-WATableViewAdapter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WATableViewAdapter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6E5D9856FBCE9F1C77ED0CDF71E2F681 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7BAFEC38D7DFF7E6FC8323CA409C03 /* SwipeExpanding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpanding.swift; path = Source/SwipeExpanding.swift; sourceTree = "<group>"; };
+		812ECC95F06A74E46FC6DF7DE7F80ADE /* SwipeTableViewCell+Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Display.swift"; path = "Source/SwipeTableViewCell+Display.swift"; sourceTree = "<group>"; };
 		8366A86EF3A47E68F5F6EFA74C9489D3 /* Pods-WATableViewAdapter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WATableViewAdapter_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		85B7963308D96C6F9E8548D1BB27402A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		8F69BCA301CF7CA6B3A101D13E728211 /* Pods_WATableViewAdapter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WATableViewAdapter_Example.framework; path = "Pods-WATableViewAdapter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4812967994A92DED4CF877978B85F2 /* SwipeCellKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCellKit-prefix.pch"; sourceTree = "<group>"; };
 		90D60B25919A0C8BC8AE13BFA84F6DD8 /* Pods-WATableViewAdapter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WATableViewAdapter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		942F95EC75E11D392E5AE935C9FEC50C /* Pods-WATableViewAdapter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WATableViewAdapter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A14C61E8DAE0A345EF754C2A2113CECC /* Pods_WATableViewAdapter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WATableViewAdapter_Tests.framework; path = "Pods-WATableViewAdapter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98041F005E760361078EBAE6D63C9AE6 /* SwipeTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCell.swift; path = Source/SwipeTableViewCell.swift; sourceTree = "<group>"; };
 		A44B73835F148878E7649B7AB9E74004 /* Pods-WATableViewAdapter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WATableViewAdapter_Example-dummy.m"; sourceTree = "<group>"; };
-		A93346FC6995C0E740748489DBC57E96 /* WATableViewAdapter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WATableViewAdapter.xcconfig; sourceTree = "<group>"; };
-		AC33D336D387B3294172DFBACAA15FD4 /* WATableViewAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WATableViewAdapter-dummy.m"; sourceTree = "<group>"; };
+		AC1CD3C2964A5BFBE4169F56F406429B /* SwipeAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAction.swift; path = Source/SwipeAction.swift; sourceTree = "<group>"; };
+		AC20D5E9DEF54461511D810529DBE9C0 /* SwipeCellKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwipeCellKit.framework; path = SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE10DB025D58D1F2F0D6414DC0222E5F /* WATableViewAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WATableViewAdapter.swift; path = WATableViewAdapter/Classes/WATableViewAdapter.swift; sourceTree = "<group>"; };
+		AE91745C3352355E998ED33023A7E02A /* SwipeTableViewCell+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Accessibility.swift"; path = "Source/SwipeTableViewCell+Accessibility.swift"; sourceTree = "<group>"; };
 		AF5A2D33CBCE6D7BBD4BC44C669AE51B /* Pods-WATableViewAdapter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WATableViewAdapter_Tests.modulemap"; sourceTree = "<group>"; };
+		B3B57DDCDD1EDCDC51A03721CBA05C6B /* SwipeFeedback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeFeedback.swift; path = Source/SwipeFeedback.swift; sourceTree = "<group>"; };
+		B3B780432F81ECA1C3739071288957A5 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Source/Extensions.swift; sourceTree = "<group>"; };
+		B8B488C40F1A158A4F4D5BCAB9F49611 /* SwipeCellKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC3F6B7D8E691490B255137E3FFED7C /* Pods-WATableViewAdapter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WATableViewAdapter_Example.modulemap"; sourceTree = "<group>"; };
-		C76AE54B5F32F9C43F4554D4085C1C47 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C94193E4DD5885201E87D196F63AFCA1 /* WATableViewAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WATableViewAdapter.framework; path = WATableViewAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9A6A4EB37AACDBC02637D8BC6875FBB /* WATableViewAdapter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WATableViewAdapter-umbrella.h"; sourceTree = "<group>"; };
-		D7741EA861514A92FDAD0A9648AE87D9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WATableViewAdapter/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		E2736CB4622E1DBB97CEAF39FFD033CD /* WATableViewAdapter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WATableViewAdapter.modulemap; sourceTree = "<group>"; };
+		BCD9C11766A2BA29377B8B3B6BD0D8EA /* WATableViewAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WATableViewAdapter-dummy.m"; sourceTree = "<group>"; };
+		BE61C10EECBFD0B96894EE662F373D33 /* WATableViewAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WATableViewAdapter-prefix.pch"; sourceTree = "<group>"; };
+		C480D3EC2C608EEA92D852AB32D50B05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C873CCBB6632718EC2388606B68B2FC1 /* SwipeAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAnimator.swift; path = Source/SwipeAnimator.swift; sourceTree = "<group>"; };
+		C91021A6738DBA92D8932A3D395B57E4 /* WATableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WATableViewCell.swift; path = WATableViewAdapter/Classes/WATableViewCell.swift; sourceTree = "<group>"; };
+		CD0BFA785024CB9F0616146171050CE4 /* SwipeActionTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionTransitioning.swift; path = Source/SwipeActionTransitioning.swift; sourceTree = "<group>"; };
+		D00984BB4ADE462A442F6AB1B32DEEB7 /* SwipeCellKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwipeCellKit.modulemap; sourceTree = "<group>"; };
+		DC7CC609ABE95E0E25C4F1D6EDA803C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E7E9EF683F8E55A0B8F55E139EB51597 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EB26308437A7D5A919EB73AF41732F1B /* Pods-WATableViewAdapter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WATableViewAdapter_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F005EB11B88A5C3653A0129CDBE82AA2 /* WATableViewAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WATableViewAdapter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EEA1D350980B6BFBBE63D55EB4EC9000 /* WATableViewAdapter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WATableViewAdapter.xcconfig; sourceTree = "<group>"; };
+		F1F75A3F1B5AC96EA8CA0D4C67F93DFA /* WATableOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WATableOptions.swift; path = WATableViewAdapter/Classes/WATableOptions.swift; sourceTree = "<group>"; };
 		FAE2D02DE6838809A98CE85169241DFA /* Pods-WATableViewAdapter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WATableViewAdapter_Tests-dummy.m"; sourceTree = "<group>"; };
+		FEDE939541D1CAA3293A0D9CF14B3669 /* SwipeTransitionLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitionLayout.swift; path = Source/SwipeTransitionLayout.swift; sourceTree = "<group>"; };
+		FF34F3AC867D7B85DF2829F83D5376A9 /* Swipeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swipeable.swift; path = Source/Swipeable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05F40BC38BB3EA60AE5B72240CACE53A /* Frameworks */ = {
+		0DB22DB45524E932CACAD6014C950343 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77BADAA04092DB0522DE963CC99A02FC /* Foundation.framework in Frameworks */,
+				C910F8899C84ADE64909682A9DA17FE3 /* Foundation.framework in Frameworks */,
+				001B4E233E95F2C2D96FB6058636F76E /* SwipeCellKit.framework in Frameworks */,
+				FE56C437C1ADE290BE2A18092784471C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,17 +152,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8966C6DD0C1AAB7AF118A76C7BC5BB7 /* Frameworks */ = {
+		54B23045CFAF8C80349F5A6D9B2693A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				566EFD275D0056787F87D30341585519 /* Foundation.framework in Frameworks */,
+				0E70688257773B8CA56104A67D987EFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7190AAE1BCFD71FDE566286F2B08DBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A50EDD75BA5B7A522C72D00C4E8F58 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0741C9849530CA69DF5EC4737BBA375D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F30FD39F8FF1A14E4BC4D47CA27DDBAB /* SwipeCellKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		129E0ECA9DEEFF85A5D1E0E228C73F38 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CA08623FB4022E097996B1F30CCB5CA /* WATableViewAdapter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		194A19C0EC256F4673367C9C13725981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43BA490FA7BEE9ABA2343ED4C6B4AFFF /* Pods_WATableViewAdapter_Example.framework */,
+				45EBD55DBEACD124B727CFC7F33B2292 /* Pods_WATableViewAdapter_Tests.framework */,
+				AC20D5E9DEF54461511D810529DBE9C0 /* SwipeCellKit.framework */,
+				5C52C1E88330CDB2FB00E34973D5C89D /* WATableViewAdapter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		2DCA9E5FBF43CEC629186ED92948C4FD /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,58 +207,72 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4DA37066A0F1C30943DDF54F38192FD7 /* Support Files */ = {
+		3CF2B084AB31C0FE031299123954768C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C76AE54B5F32F9C43F4554D4085C1C47 /* Info.plist */,
-				E2736CB4622E1DBB97CEAF39FFD033CD /* WATableViewAdapter.modulemap */,
-				A93346FC6995C0E740748489DBC57E96 /* WATableViewAdapter.xcconfig */,
-				AC33D336D387B3294172DFBACAA15FD4 /* WATableViewAdapter-dummy.m */,
-				3933A818808CF223D733C92B987D7DB4 /* WATableViewAdapter-prefix.pch */,
-				C9A6A4EB37AACDBC02637D8BC6875FBB /* WATableViewAdapter-umbrella.h */,
+				C480D3EC2C608EEA92D852AB32D50B05 /* Info.plist */,
+				D00984BB4ADE462A442F6AB1B32DEEB7 /* SwipeCellKit.modulemap */,
+				3F4C7B2A8013CEE53515246A3147CCD7 /* SwipeCellKit.xcconfig */,
+				0A3C718EDC7D44F58DB0B8D4DAC56795 /* SwipeCellKit-dummy.m */,
+				8B4812967994A92DED4CF877978B85F2 /* SwipeCellKit-prefix.pch */,
+				082B5B32A61D14C480889EC7BC19E306 /* SwipeCellKit-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WATableViewAdapter";
+			path = "../Target Support Files/SwipeCellKit";
 			sourceTree = "<group>";
 		};
-		65FB40CB9BF5F54252F47F5C61D08AA4 /* Products */ = {
+		400BED9F702539038D0E0EEE0C81BA7E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8F69BCA301CF7CA6B3A101D13E728211 /* Pods_WATableViewAdapter_Example.framework */,
-				A14C61E8DAE0A345EF754C2A2113CECC /* Pods_WATableViewAdapter_Tests.framework */,
-				C94193E4DD5885201E87D196F63AFCA1 /* WATableViewAdapter.framework */,
+				B8B488C40F1A158A4F4D5BCAB9F49611 /* SwipeCellKit.framework */,
+				6E146CBEBC113978CC5D0674C9914976 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E146CBEBC113978CC5D0674C9914976 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E7E9EF683F8E55A0B8F55E139EB51597 /* Foundation.framework */,
+				DC7CC609ABE95E0E25C4F1D6EDA803C3 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				CF2A628D3A52F7023AA569554BFD4DAF /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				65FB40CB9BF5F54252F47F5C61D08AA4 /* Products */,
+				129E0ECA9DEEFF85A5D1E0E228C73F38 /* Development Pods */,
+				400BED9F702539038D0E0EEE0C81BA7E /* Frameworks */,
+				0741C9849530CA69DF5EC4737BBA375D /* Pods */,
+				194A19C0EC256F4673367C9C13725981 /* Products */,
 				2DCA9E5FBF43CEC629186ED92948C4FD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		882947062A2F8BF37DCAFBF367926219 /* WATableViewAdapter */ = {
+		9CA08623FB4022E097996B1F30CCB5CA /* WATableViewAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				D7741EA861514A92FDAD0A9648AE87D9 /* ReplaceMe.swift */,
-				DC750A80D2ADE129C15F6DC8AFD3DFD9 /* Pod */,
-				4DA37066A0F1C30943DDF54F38192FD7 /* Support Files */,
+				13CA3EC3EE5A2E406EF4D924E64481B8 /* ItemDataModel.swift */,
+				F1F75A3F1B5AC96EA8CA0D4C67F93DFA /* WATableOptions.swift */,
+				AE10DB025D58D1F2F0D6414DC0222E5F /* WATableViewAdapter.swift */,
+				C91021A6738DBA92D8932A3D395B57E4 /* WATableViewCell.swift */,
+				A107594CEF13C0EC7EE3B857D099309F /* Pod */,
+				CB32609E350A6822DCE81925E471A11B /* Support Files */,
 			);
 			name = WATableViewAdapter;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A107594CEF13C0EC7EE3B857D099309F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				11872BD1B4F5BB5C8BE21319FDE9889A /* LICENSE */,
+				4734B8FB0C78E8DD88DF120DA2E9E507 /* README.md */,
+				4548D0FD79A597B7E0C791B9B83152B7 /* WATableViewAdapter.podspec */,
 			);
-			name = Frameworks;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BE6C1B1A9E08836B60FDAFB752E49D82 /* Pods-WATableViewAdapter_Example */ = {
@@ -176,30 +293,43 @@
 			path = "Target Support Files/Pods-WATableViewAdapter_Example";
 			sourceTree = "<group>";
 		};
-		CF2A628D3A52F7023AA569554BFD4DAF /* Development Pods */ = {
+		CB32609E350A6822DCE81925E471A11B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				882947062A2F8BF37DCAFBF367926219 /* WATableViewAdapter */,
+				28D2B420A7D58C2CFCE5CD33995E30A7 /* Info.plist */,
+				2C4A36FE4E4C4BD05FBE23A93616A8D1 /* WATableViewAdapter.modulemap */,
+				EEA1D350980B6BFBBE63D55EB4EC9000 /* WATableViewAdapter.xcconfig */,
+				BCD9C11766A2BA29377B8B3B6BD0D8EA /* WATableViewAdapter-dummy.m */,
+				BE61C10EECBFD0B96894EE662F373D33 /* WATableViewAdapter-prefix.pch */,
+				09124B6B883C0A390A21B95A77D8F09D /* WATableViewAdapter-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WATableViewAdapter";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		F30FD39F8FF1A14E4BC4D47CA27DDBAB /* SwipeCellKit */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				B3B780432F81ECA1C3739071288957A5 /* Extensions.swift */,
+				FF34F3AC867D7B85DF2829F83D5376A9 /* Swipeable.swift */,
+				AC1CD3C2964A5BFBE4169F56F406429B /* SwipeAction.swift */,
+				451FC3B397527DF6D13F3D8074D20FAD /* SwipeActionButton.swift */,
+				5FD5BA3CACC94406D1670E4F893AEF03 /* SwipeActionsView.swift */,
+				CD0BFA785024CB9F0616146171050CE4 /* SwipeActionTransitioning.swift */,
+				C873CCBB6632718EC2388606B68B2FC1 /* SwipeAnimator.swift */,
+				7E7BAFEC38D7DFF7E6FC8323CA409C03 /* SwipeExpanding.swift */,
+				09B07FAE5A2C5629FD0E05FD1F048D0E /* SwipeExpansionStyle.swift */,
+				B3B57DDCDD1EDCDC51A03721CBA05C6B /* SwipeFeedback.swift */,
+				5136EEEA34397B89E3B5E7467414E390 /* SwipeTableOptions.swift */,
+				98041F005E760361078EBAE6D63C9AE6 /* SwipeTableViewCell.swift */,
+				AE91745C3352355E998ED33023A7E02A /* SwipeTableViewCell+Accessibility.swift */,
+				812ECC95F06A74E46FC6DF7DE7F80ADE /* SwipeTableViewCell+Display.swift */,
+				2282DE4CC7DFC4C7F060694695F39309 /* SwipeTableViewCellDelegate.swift */,
+				FEDE939541D1CAA3293A0D9CF14B3669 /* SwipeTransitionLayout.swift */,
+				3CF2B084AB31C0FE031299123954768C /* Support Files */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		DC750A80D2ADE129C15F6DC8AFD3DFD9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0EBF9928BBD1F914E5FC9D89CB5437E7 /* LICENSE */,
-				85B7963308D96C6F9E8548D1BB27402A /* README.md */,
-				F005EB11B88A5C3653A0129CDBE82AA2 /* WATableViewAdapter.podspec */,
-			);
-			name = Pod;
+			name = SwipeCellKit;
+			path = SwipeCellKit;
 			sourceTree = "<group>";
 		};
 		F60E8A5E9FF5A568F8750FB34EA2E9F3 /* Pods-WATableViewAdapter_Tests */ = {
@@ -223,6 +353,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		473DE24E27B06F9B816985D54FC9FC5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11146A7D4B9A44C32FF9FD6E2C5EF68D /* WATableViewAdapter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878D73505D1B5393D49437B296648F32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C6E4F283C439659E577F0894768670 /* SwipeCellKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8E3862D6A256A23C0BD271D449079250 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -231,58 +377,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3B43AC94B8D044EC18F2DAF73F14A5A /* Headers */ = {
+		AB5024858D0E096FECA93F00B573CA6B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC5DE0122B642EC2C94D33C36D3F1210 /* WATableViewAdapter-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F06D0BECE91F48E318362B167D45477F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C841EFC9BC211A9D84751FB5002A30F9 /* Pods-WATableViewAdapter_Example-umbrella.h in Headers */,
+				0C08A522B9D10ED7608272AAF2756AA0 /* Pods-WATableViewAdapter_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		89B353642337F84FBA7083B17F97B0CC /* Pods-WATableViewAdapter_Example */ = {
+		992775A43A6268868FD7CF30C194C381 /* WATableViewAdapter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D517C19F6D178C3E96288BBD850138D /* Build configuration list for PBXNativeTarget "Pods-WATableViewAdapter_Example" */;
+			buildConfigurationList = AAA7E3AB2B49880BDF3A39583CE02C2E /* Build configuration list for PBXNativeTarget "WATableViewAdapter" */;
 			buildPhases = (
-				475E93EC5995FB4F910381DE9D5FE829 /* Sources */,
-				05F40BC38BB3EA60AE5B72240CACE53A /* Frameworks */,
-				F06D0BECE91F48E318362B167D45477F /* Headers */,
+				FB2B04B3D1018E44A257E623C53CE025 /* Sources */,
+				0DB22DB45524E932CACAD6014C950343 /* Frameworks */,
+				473DE24E27B06F9B816985D54FC9FC5B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				34FF5D660491DBC98EF495A0C5DE4AEC /* PBXTargetDependency */,
-			);
-			name = "Pods-WATableViewAdapter_Example";
-			productName = "Pods-WATableViewAdapter_Example";
-			productReference = 8F69BCA301CF7CA6B3A101D13E728211 /* Pods_WATableViewAdapter_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		ADF18C6F7146611CA7C677C270AE286C /* WATableViewAdapter */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 743E2929F2473F78E0811D654F0ADD85 /* Build configuration list for PBXNativeTarget "WATableViewAdapter" */;
-			buildPhases = (
-				8019A0A65FB3DC68ED4584A88D5D2437 /* Sources */,
-				B8966C6DD0C1AAB7AF118A76C7BC5BB7 /* Frameworks */,
-				A3B43AC94B8D044EC18F2DAF73F14A5A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				D3E0C093272B34C81A28BC2CB654C01B /* PBXTargetDependency */,
 			);
 			name = WATableViewAdapter;
 			productName = WATableViewAdapter;
-			productReference = C94193E4DD5885201E87D196F63AFCA1 /* WATableViewAdapter.framework */;
+			productReference = 5C52C1E88330CDB2FB00E34973D5C89D /* WATableViewAdapter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE13910CE85ED54A4D06629234AA89CE /* SwipeCellKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7502EA2697F6B6A31C5BB27E7255FB /* Build configuration list for PBXNativeTarget "SwipeCellKit" */;
+			buildPhases = (
+				858BF7B346BD9716EFD505FCCE57CED8 /* Sources */,
+				7190AAE1BCFD71FDE566286F2B08DBE1 /* Frameworks */,
+				878D73505D1B5393D49437B296648F32 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeCellKit;
+			productName = SwipeCellKit;
+			productReference = AC20D5E9DEF54461511D810529DBE9C0 /* SwipeCellKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F495D6E45E47A7C32C095629955CA2A9 /* Pods-WATableViewAdapter_Tests */ = {
@@ -299,7 +437,26 @@
 			);
 			name = "Pods-WATableViewAdapter_Tests";
 			productName = "Pods-WATableViewAdapter_Tests";
-			productReference = A14C61E8DAE0A345EF754C2A2113CECC /* Pods_WATableViewAdapter_Tests.framework */;
+			productReference = 45EBD55DBEACD124B727CFC7F33B2292 /* Pods_WATableViewAdapter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD904BF2BE1CF5B3FDFA3151946DB463 /* Pods-WATableViewAdapter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242F7BF7A5D2FEEEC32B4D07942F0F9A /* Build configuration list for PBXNativeTarget "Pods-WATableViewAdapter_Example" */;
+			buildPhases = (
+				76CFB955B0DC99F049B42CA0AB2950F6 /* Sources */,
+				54B23045CFAF8C80349F5A6D9B2693A7 /* Frameworks */,
+				AB5024858D0E096FECA93F00B573CA6B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D14550601F90262F9E147C14FDB84942 /* PBXTargetDependency */,
+				861E76AC98F20582769C92ED3268346F /* PBXTargetDependency */,
+			);
+			name = "Pods-WATableViewAdapter_Example";
+			productName = "Pods-WATableViewAdapter_Example";
+			productReference = 43BA490FA7BEE9ABA2343ED4C6B4AFFF /* Pods_WATableViewAdapter_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -319,13 +476,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 65FB40CB9BF5F54252F47F5C61D08AA4 /* Products */;
+			productRefGroup = 194A19C0EC256F4673367C9C13725981 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				89B353642337F84FBA7083B17F97B0CC /* Pods-WATableViewAdapter_Example */,
+				FD904BF2BE1CF5B3FDFA3151946DB463 /* Pods-WATableViewAdapter_Example */,
 				F495D6E45E47A7C32C095629955CA2A9 /* Pods-WATableViewAdapter_Tests */,
-				ADF18C6F7146611CA7C677C270AE286C /* WATableViewAdapter */,
+				CE13910CE85ED54A4D06629234AA89CE /* SwipeCellKit */,
+				992775A43A6268868FD7CF30C194C381 /* WATableViewAdapter */,
 			);
 		};
 /* End PBXProject section */
@@ -339,36 +497,293 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		475E93EC5995FB4F910381DE9D5FE829 /* Sources */ = {
+		76CFB955B0DC99F049B42CA0AB2950F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5765F6CB1D91D901BB61B2FB07187BC /* Pods-WATableViewAdapter_Example-dummy.m in Sources */,
+				6BA471D4E2021BD103E4578730E50D3C /* Pods-WATableViewAdapter_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8019A0A65FB3DC68ED4584A88D5D2437 /* Sources */ = {
+		858BF7B346BD9716EFD505FCCE57CED8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C513C3E28F61583008BA9A7D78996012 /* ReplaceMe.swift in Sources */,
-				5F4900733491BE5B5FE5B33E7233B77C /* WATableViewAdapter-dummy.m in Sources */,
+				4ADCB4366D5D5EB90C7781B25C7A9E52 /* Extensions.swift in Sources */,
+				25E22A17E7A457623F5C80E07BA74E62 /* Swipeable.swift in Sources */,
+				520FAD1D0F8FD66D31484396A6E036F2 /* SwipeAction.swift in Sources */,
+				022AF5625A4842ADADC91C7B23E0326A /* SwipeActionButton.swift in Sources */,
+				53CBB96308D3B432788E7A32D4E1DD85 /* SwipeActionsView.swift in Sources */,
+				E898EAC74B01ECFCBA170A7E06D3F6D5 /* SwipeActionTransitioning.swift in Sources */,
+				73F78C797DBF34A1BD329D5CDC296E8A /* SwipeAnimator.swift in Sources */,
+				A99EE6B2892A5904F234AC3C5D05C8CA /* SwipeCellKit-dummy.m in Sources */,
+				20360754104E8A4A1D81B7F7C87D01A1 /* SwipeExpanding.swift in Sources */,
+				649A8766852C6FBA018E3E1AA99471B9 /* SwipeExpansionStyle.swift in Sources */,
+				EA26687C1AFD80EBF05A554814EF80B8 /* SwipeFeedback.swift in Sources */,
+				99E325A7476DB827BAC56334EBAF5B92 /* SwipeTableOptions.swift in Sources */,
+				F14CA2145B521BD0DDEF7E7C24957FFD /* SwipeTableViewCell+Accessibility.swift in Sources */,
+				B4D602DBBCB5805FEE6E9AF05B0E8852 /* SwipeTableViewCell+Display.swift in Sources */,
+				5B1A90F9776968A7C5B9B45FB0576044 /* SwipeTableViewCell.swift in Sources */,
+				A605ECC42FC589A1A27F9B3CB08B13D1 /* SwipeTableViewCellDelegate.swift in Sources */,
+				E6133DAA40012B921C627937260BB115 /* SwipeTransitionLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2B04B3D1018E44A257E623C53CE025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBD8DFF237E76D2BEBF9C2264A17AB /* ItemDataModel.swift in Sources */,
+				88EB200D7A12144A1358ACFBE8EBF245 /* WATableOptions.swift in Sources */,
+				462FFE44805CCB22EFB0D355B38C369C /* WATableViewAdapter-dummy.m in Sources */,
+				C47E4628D46F5188874B2A3EE17941B1 /* WATableViewAdapter.swift in Sources */,
+				A97500D0CD39869DEFBE74015D361273 /* WATableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		34FF5D660491DBC98EF495A0C5DE4AEC /* PBXTargetDependency */ = {
+		861E76AC98F20582769C92ED3268346F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WATableViewAdapter;
-			target = ADF18C6F7146611CA7C677C270AE286C /* WATableViewAdapter */;
-			targetProxy = 75472E343A30FC435449C1222C011416 /* PBXContainerItemProxy */;
+			target = 992775A43A6268868FD7CF30C194C381 /* WATableViewAdapter */;
+			targetProxy = DA9892DF92F6D2EB5741E181D058CC9F /* PBXContainerItemProxy */;
+		};
+		D14550601F90262F9E147C14FDB84942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwipeCellKit;
+			target = CE13910CE85ED54A4D06629234AA89CE /* SwipeCellKit */;
+			targetProxy = D25403D1AF5A54C07D51C126869C20FC /* PBXContainerItemProxy */;
+		};
+		D3E0C093272B34C81A28BC2CB654C01B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwipeCellKit;
+			target = CE13910CE85ED54A4D06629234AA89CE /* SwipeCellKit */;
+			targetProxy = 65A83BC9E61E6F5BA03F95E756AD6D65 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+		5D66BB5176EF9588DECD12496C218C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B54ADDAF31BE6E6E98D19A183F72E11 /* Pods-WATableViewAdapter_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WATableViewAdapter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WATableViewAdapter_Example/Pods-WATableViewAdapter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WATableViewAdapter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		726DB8D81E32580DB6B996CE8DAEDF1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4C7B2A8013CEE53515246A3147CCD7 /* SwipeCellKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeCellKit/SwipeCellKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeCellKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwipeCellKit/SwipeCellKit.modulemap";
+				PRODUCT_NAME = SwipeCellKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E03F46508E6B0C06FFA38720A1FF792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D60B25919A0C8BC8AE13BFA84F6DD8 /* Pods-WATableViewAdapter_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WATableViewAdapter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WATableViewAdapter_Example/Pods-WATableViewAdapter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WATableViewAdapter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB189D04B83C94DAD08DACEA0100A1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA1D350980B6BFBBE63D55EB4EC9000 /* WATableViewAdapter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WATableViewAdapter/WATableViewAdapter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WATableViewAdapter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WATableViewAdapter/WATableViewAdapter.modulemap";
+				PRODUCT_NAME = WATableViewAdapter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3C1CBB104EFA8D58685F1B4DAD84A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA1D350980B6BFBBE63D55EB4EC9000 /* WATableViewAdapter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WATableViewAdapter/WATableViewAdapter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WATableViewAdapter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WATableViewAdapter/WATableViewAdapter.modulemap";
+				PRODUCT_NAME = WATableViewAdapter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -417,7 +832,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,64 +843,9 @@
 			};
 			name = Debug;
 		};
-		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+		C0338BF4790536D42C12C672A012DB2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		8F32DD0536C05C75D94D4BF889900F5C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90D60B25919A0C8BC8AE13BFA84F6DD8 /* Pods-WATableViewAdapter_Example.release.xcconfig */;
+			baseConfigurationReference = 3F4C7B2A8013CEE53515246A3147CCD7 /* SwipeCellKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -496,81 +856,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WATableViewAdapter_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeCellKit/SwipeCellKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeCellKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WATableViewAdapter_Example/Pods-WATableViewAdapter_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WATableViewAdapter_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A0486C55C4DED449D3700D82DD9B808E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B54ADDAF31BE6E6E98D19A183F72E11 /* Pods-WATableViewAdapter_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WATableViewAdapter_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WATableViewAdapter_Example/Pods-WATableViewAdapter_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WATableViewAdapter_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C819020C8F0F819493871D47877DFF42 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A93346FC6995C0E740748489DBC57E96 /* WATableViewAdapter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WATableViewAdapter/WATableViewAdapter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WATableViewAdapter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WATableViewAdapter/WATableViewAdapter.modulemap";
-				PRODUCT_NAME = WATableViewAdapter;
+				MODULEMAP_FILE = "Target Support Files/SwipeCellKit/SwipeCellKit.modulemap";
+				PRODUCT_NAME = SwipeCellKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -582,40 +874,7 @@
 			};
 			name = Debug;
 		};
-		CE3E9997416864A89736D0D69DD00CAF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DC9BA53B9FF1A230C8F3EFEC0AD470D /* Pods-WATableViewAdapter_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WATableViewAdapter_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WATableViewAdapter_Tests/Pods-WATableViewAdapter_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WATableViewAdapter_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D7F537F7F5EAD55D7676E5F92DE5250D /* Debug */ = {
+		E0F8A6DABF01D25450AFE9694C8DE996 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 942F95EC75E11D392E5AE935C9FEC50C /* Pods-WATableViewAdapter_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -630,7 +889,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-WATableViewAdapter_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-WATableViewAdapter_Tests/Pods-WATableViewAdapter_Tests.modulemap";
@@ -647,9 +906,9 @@
 			};
 			name = Debug;
 		};
-		F77CECCD8B23EE2F7FF7515ECFE9A553 /* Release */ = {
+		FF7B6DC271AFD2A3428D4676E3890BD2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A93346FC6995C0E740748489DBC57E96 /* WATableViewAdapter.xcconfig */;
+			baseConfigurationReference = 3DC9BA53B9FF1A230C8F3EFEC0AD470D /* Pods-WATableViewAdapter_Tests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -660,18 +919,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WATableViewAdapter/WATableViewAdapter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WATableViewAdapter/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WATableViewAdapter_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WATableViewAdapter/WATableViewAdapter.modulemap";
-				PRODUCT_NAME = WATableViewAdapter;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WATableViewAdapter_Tests/Pods-WATableViewAdapter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WATableViewAdapter_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -682,29 +942,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		242F7BF7A5D2FEEEC32B4D07942F0F9A /* Build configuration list for PBXNativeTarget "Pods-WATableViewAdapter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D66BB5176EF9588DECD12496C218C93 /* Debug */,
+				9E03F46508E6B0C06FFA38720A1FF792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
-				731DC216E1A58545B559F6E0A2418060 /* Release */,
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D517C19F6D178C3E96288BBD850138D /* Build configuration list for PBXNativeTarget "Pods-WATableViewAdapter_Example" */ = {
+		AAA7E3AB2B49880BDF3A39583CE02C2E /* Build configuration list for PBXNativeTarget "WATableViewAdapter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0486C55C4DED449D3700D82DD9B808E /* Debug */,
-				8F32DD0536C05C75D94D4BF889900F5C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		743E2929F2473F78E0811D654F0ADD85 /* Build configuration list for PBXNativeTarget "WATableViewAdapter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C819020C8F0F819493871D47877DFF42 /* Debug */,
-				F77CECCD8B23EE2F7FF7515ECFE9A553 /* Release */,
+				AB189D04B83C94DAD08DACEA0100A1EA /* Debug */,
+				B3C1CBB104EFA8D58685F1B4DAD84A80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -712,8 +972,17 @@
 		B51D37F5C3A32C12D6CC295F590BF162 /* Build configuration list for PBXNativeTarget "Pods-WATableViewAdapter_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7F537F7F5EAD55D7676E5F92DE5250D /* Debug */,
-				CE3E9997416864A89736D0D69DD00CAF /* Release */,
+				E0F8A6DABF01D25450AFE9694C8DE996 /* Debug */,
+				FF7B6DC271AFD2A3428D4676E3890BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7502EA2697F6B6A31C5BB27E7255FB /* Build configuration list for PBXNativeTarget "SwipeCellKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0338BF4790536D42C12C672A012DB2A /* Debug */,
+				726DB8D81E32580DB6B996CE8DAEDF1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,7 +1,10 @@
 PODS:
-  - WATableViewAdapter (0.1.0)
+  - SwipeCellKit (2.2.0)
+  - WATableViewAdapter (0.1.0):
+    - SwipeCellKit
 
 DEPENDENCIES:
+  - SwipeCellKit
   - WATableViewAdapter (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +12,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  WATableViewAdapter: 1a6b64bb6b88d9f862b4769d8d087b67e5031e77
+  SwipeCellKit: 8ae09401e1137566b187980d824310129233c959
+  WATableViewAdapter: 599db4153645e081b0b73b9fdb026521e4d0df4e
 
-PODFILE CHECKSUM: a63161591554dde2ad55d0543f577c3262b1893d
+PODFILE CHECKSUM: e9a811bdf02d73c7c2ef1b61871b547fb3f068d2
 
 COCOAPODS: 1.4.0.rc.1

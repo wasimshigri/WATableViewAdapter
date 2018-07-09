@@ -22,7 +22,7 @@ pod 'WATableViewAdapter'
 
 ## Author
 
-wasimshigri, wa@embrace-it.com
+wasimshigri, wasimshigri@gmail.com
 
 ## License
 

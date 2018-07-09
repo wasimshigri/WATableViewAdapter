@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WATableViewAdapter'
   s.version          = '0.1.0'
-  s.swift_version   = '>= 3.2, <= 4.1'
+s.swift_version = '4.1'
   s.summary          = 'WATableViewAdapter contains wrappers for UITableViewDatasource and UITableViewDelegate which provides multilevel tableview.'
 
 # This description is used to generate tags and improve search results.
@@ -25,19 +25,22 @@ iOS tabelview does not provides the multi-level functionality. WATableViewAdapte
   s.homepage         = 'https://github.com/wasimshigri/WATableViewAdapter'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wasimshigri' => 'wa@embrace-it.com' }
+  s.author           = { 'wasimshigri' => 'wasimshigri@gmail.com' }
   s.source           = { :git => 'https://github.com/wasimshigri/WATableViewAdapter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'WATableViewAdapter/Classes/**/*'
+
   
   # s.resource_bundles = {
   #   'WATableViewAdapter' => ['WATableViewAdapter/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SwipeCellKit'
+
 end
