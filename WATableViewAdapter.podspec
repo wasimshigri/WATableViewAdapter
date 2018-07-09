@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WATableViewAdapter'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
 s.swift_version = '4.1'
   s.summary          = 'WATableViewAdapter contains wrappers for UITableViewDatasource and UITableViewDelegate which provides multilevel tableview.'
 
